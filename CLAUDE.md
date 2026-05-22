@@ -15,6 +15,7 @@
   - [wiki/concepts/utagawa/](wiki/concepts/utagawa) — その中でも **宇田川氏の作った概念**（造語、または一般語の特殊用法）。
   - [wiki/people/](wiki/people) — 人物プロフィール（宇田川氏自身、関連哲学者など）。
   - [wiki/meta/](wiki/meta) — Wiki 全体に関わるメタページ（編集方針マッピングなど）。
+  - [wiki/syntheses/](wiki/syntheses) — 複数の本人定義を平易な日本語で 1 つの絵にまとめる統合解説ページ。プロジェクトの最終目的（特殊用語抜きで宇田川氏の思想を理解する）に直接奉仕する層。
 - [sources/](sources) — 各生ソースの要約ページ（ingest 時に作成）。
 - [tools/](tools) — fetch / refactor / verify などの作業用スクリプト。
 - [index.md](index.md) — Wiki 全体の索引（カテゴリ別）。
@@ -30,6 +31,7 @@
 | デライト周辺で出てくるがユーザー側・外部由来の概念（久住哲氏の派生用語、Cosense 用語、メタデータ書式など） | `wiki/concepts/` 直下 |
 | 人物（哲学者、関係者、宇田川氏自身） | `wiki/people/` |
 | Wiki の編集方針・マッピング・索引補助など | `wiki/meta/` |
+| 複数の造語/概念を平易な日本語で 1 つの絵にまとめる統合解説 | `wiki/syntheses/` |
 
 迷ったら `wiki/concepts/utagawa/` ではなく `wiki/concepts/` 直下に置く（utagawa/ は宇田川氏由来であることが明確なものに限定する）。
 

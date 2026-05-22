@@ -9,10 +9,16 @@
 - [sources/delite-project.all.md](sources/delite-project.all.md) — Scrapbox `/delite`（[デライト Collabox（仮）](wiki/concepts/utagawa/Collabox.md)）プロジェクト全 43 ページ。zatsma 氏・804C 氏らによるユーザー側の実践知。本人発言はほぼ無いが、輪符の書式・[未公開輪郭](wiki/concepts/utagawa/未公開輪郭.md) の運用比較・[デコ二刀流](wiki/concepts/utagawa/デコ二刀流.md) の実例の供給源。
 - [sources/dlt-udagawa-corpus.md](sources/dlt-udagawa-corpus.md) — **デライト本体** (`dlt.kitetu.com`) から K#F85E プロフィールを起点に BFS 取得した **宇田川氏自身の輪郭 2,505 件**（うち本文あり 912 件）。日記・越省・本人による概念定義文書を含む。`raw/dlt-udagawa/outlines.jsonl` に正規化済み。全公開 19.6 万件のうちのごく一部の試掘段階。
 
+## 統合解説（特殊用語抜きで読める）
+
+プロジェクトの最終目的「**特殊用語を極力使わずに宇田川氏の思想を理解する**」に直接奉仕する層。複数の造語/本人定義を 1 つの絵にまとめる。
+
+- [宇田川氏の毎日](wiki/syntheses/宇田川氏の毎日.md) — 『希哲日記』+ 副日記 15 種 + 整輪 + 一日一文 + 朝の定時執務 + 黄金朝食 などの **彼の生活システムの全体像**。「希哲黄金休日」のような語の解読キーも収録。
+
 ## メタ
 
-- [concepts/先行概念マッピング.md](wiki/meta/先行概念マッピング.md) — 宇田川氏が「新概念」として提示する造語を、既知の先行概念と対応づけた地図。サーベイ不足のケースを明示しつつ、独自性のある部分も区別して示す。
-- [concepts/ジェンドリン.md](wiki/people/ジェンドリン.md) — 宇田川氏の主要概念群（[輪郭](wiki/concepts/utagawa/輪郭.md)・[認知対象](wiki/concepts/utagawa/認知対象.md)・[高度非言語思考](wiki/concepts/utagawa/高度非言語思考.md)・[言語演劇論](wiki/concepts/utagawa/言語演劇論.md)・[FPN](wiki/concepts/utagawa/FPN.md)）と一対一近くで対応する哲学者ユージン・ジェンドリンのハブページ。
+- [wiki/meta/先行概念マッピング.md](wiki/meta/先行概念マッピング.md) — 宇田川氏が「新概念」として提示する造語を、既知の先行概念と対応づけた地図。サーベイ不足のケースを明示しつつ、独自性のある部分も区別して示す。
+- [wiki/people/ジェンドリン.md](wiki/people/ジェンドリン.md) — 宇田川氏の主要概念群（[輪郭](wiki/concepts/utagawa/輪郭.md)・[認知対象](wiki/concepts/utagawa/認知対象.md)・[高度非言語思考](wiki/concepts/utagawa/高度非言語思考.md)・[言語演劇論](wiki/concepts/utagawa/言語演劇論.md)・[FPN](wiki/concepts/utagawa/FPN.md)）と一対一近くで対応する哲学者ユージン・ジェンドリンのハブページ。
 
 ---
 
