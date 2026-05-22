@@ -7,7 +7,7 @@
 - [sources/villagepump-デライト.2hop.md](sources/villagepump-デライト.2hop.md) — 井戸端（Scrapbox `/villagepump`）の「デライト」ページ + 1/2-hop 関連ページ 146件。本人発言が密度高く含まれる。
 - [sources/arpla-デライト.2hop.md](sources/arpla-デライト.2hop.md) — Scrapbox `arpla`（アープラ）の「デライト」ページ + 1/2-hop 関連ページ 51件。ほぼすべて **久住哲** 氏による分析・解釈で、設計思想の理論的整理が中心。
 - [sources/delite-project.all.md](sources/delite-project.all.md) — Scrapbox `/delite`（[デライト Collabox（仮）](wiki/concepts/utagawa/Collabox.md)）プロジェクト全 43 ページ。zatsma 氏・804C 氏らによるユーザー側の実践知。本人発言はほぼ無いが、輪符の書式・[未公開輪郭](wiki/concepts/utagawa/未公開輪郭.md) の運用比較・[デコ二刀流](wiki/concepts/utagawa/デコ二刀流.md) の実例の供給源。
-- [sources/dlt-udagawa-corpus.md](sources/dlt-udagawa-corpus.md) — **デライト本体** (`dlt.kitetu.com`) から K#F85E プロフィールを起点に BFS 取得した **宇田川氏自身の輪郭 505 件**（うち本文あり 234 件）。日記・越省・本人による概念定義文書を含む。`raw/dlt-udagawa/outlines.jsonl` に正規化済み。全公開 19.6 万件のうちのごく一部の試掘段階。
+- [sources/dlt-udagawa-corpus.md](sources/dlt-udagawa-corpus.md) — **デライト本体** (`dlt.kitetu.com`) から K#F85E プロフィールを起点に BFS 取得した **宇田川氏自身の輪郭 1,005 件**（うち本文あり 437 件）。日記・越省・本人による概念定義文書を含む。`raw/dlt-udagawa/outlines.jsonl` に正規化済み。全公開 19.6 万件のうちのごく一部の試掘段階。
 
 ## メタ
 
@@ -72,7 +72,9 @@
 - [希哲館](wiki/concepts/utagawa/希哲館.md) — 宇田川氏が構想する知識機関
 - [希哲館事業](wiki/concepts/utagawa/希哲館事業.md) — その総体
 - [希哲紀元](wiki/concepts/utagawa/希哲紀元.md) — 独自紀年法
+- [希哲学](wiki/concepts/utagawa/希哲学.md) — 西周由来。「希哲」+「哲学」の総称、本人による直接認知の証拠
 - [希哲館訳語](wiki/concepts/utagawa/希哲館訳語.md) — カタカナ語を漢語／和語に置き換える
+- [綜語](wiki/concepts/utagawa/綜語.md) — 宇田川氏が考案した人工言語
 - [新現代思想](wiki/concepts/utagawa/新現代思想.md) — 宇田川氏が開拓してきた思想群
 - [現代の壁](wiki/concepts/utagawa/現代の壁.md) — 普及を阻む需要不足
 - [ジパング計画](wiki/concepts/utagawa/ジパング計画.md) — 希哲館事業の現中心計画
