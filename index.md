@@ -7,7 +7,7 @@
 - [sources/villagepump-デライト.2hop.md](sources/villagepump-デライト.2hop.md) — 井戸端（Scrapbox `/villagepump`）の「デライト」ページ + 1/2-hop 関連ページ 146件。本人発言が密度高く含まれる。
 - [sources/arpla-デライト.2hop.md](sources/arpla-デライト.2hop.md) — Scrapbox `arpla`（アープラ）の「デライト」ページ + 1/2-hop 関連ページ 51件。ほぼすべて **久住哲** 氏による分析・解釈で、設計思想の理論的整理が中心。
 - [sources/delite-project.all.md](sources/delite-project.all.md) — Scrapbox `/delite`（[デライト Collabox（仮）](wiki/concepts/utagawa/Collabox.md)）プロジェクト全 43 ページ。zatsma 氏・804C 氏らによるユーザー側の実践知。本人発言はほぼ無いが、輪符の書式・[未公開輪郭](wiki/concepts/utagawa/未公開輪郭.md) の運用比較・[デコ二刀流](wiki/concepts/utagawa/デコ二刀流.md) の実例の供給源。
-- [sources/dlt-udagawa-corpus.md](sources/dlt-udagawa-corpus.md) — **デライト本体** (`dlt.kitetu.com`) から K#F85E プロフィールを起点に BFS 取得した **宇田川氏自身の輪郭 1,005 件**（うち本文あり 437 件）。日記・越省・本人による概念定義文書を含む。`raw/dlt-udagawa/outlines.jsonl` に正規化済み。全公開 19.6 万件のうちのごく一部の試掘段階。
+- [sources/dlt-udagawa-corpus.md](sources/dlt-udagawa-corpus.md) — **デライト本体** (`dlt.kitetu.com`) から K#F85E プロフィールを起点に BFS 取得した **宇田川氏自身の輪郭 2,005 件**（うち本文あり 758 件）。日記・越省・本人による概念定義文書を含む。`raw/dlt-udagawa/outlines.jsonl` に正規化済み。全公開 19.6 万件のうちのごく一部の試掘段階。
 
 ## メタ
 
@@ -135,9 +135,16 @@
 - [『希哲日記』](wiki/concepts/utagawa/『希哲日記』.md) — 本人が毎日続けている日記の総体
 - [副日記](wiki/concepts/utagawa/副日記.md) — 主日記に対する 15 種類のサブ記録
 - [整輪](wiki/concepts/utagawa/整輪.md) — 輪郭群の意識的な整備
+- [大整輪](wiki/concepts/utagawa/大整輪.md) — 数年規模の整輪活動
 - [日記準備整輪](wiki/concepts/utagawa/日記準備整輪.md) — 当日の日記・副日記のための整輪
+- [整清](wiki/concepts/utagawa/整清.md) — 整理整頓と清掃を統合した造語
 - [一日一文](wiki/concepts/utagawa/一日一文.md) — 越省。毎日完成させる短編エッセー
 - [書了](wiki/concepts/utagawa/書了.md) — 文章を完成させる行為。2026年新採用
+
+### O. 市場戦略・思想
+
+- [デライト市場戦略](wiki/concepts/utagawa/デライト市場戦略.md) — 第一次〜第七次の歴代戦略
+- [自由](wiki/concepts/utagawa/自由.md) — 「自らに由る」の意。宇田川による日本固有の概念としての扱い
 
 ### J. 歴史的トピック
 
