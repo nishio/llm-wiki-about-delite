@@ -3,23 +3,39 @@
 デライト（Delite）の作者 **宇田川浩行氏** の思想を整理・理解するための LLM-Wiki。
 
 最終目的: **特殊用語を極力使わずに宇田川氏の思想を理解する** こと。
-そのために、独特な造語や、一般語の特殊用法（例: 「輪郭」）を [concepts/](concepts/) に整理する。
+そのために、独特な造語や、一般語の特殊用法（例: 「輪郭」）を [wiki/concepts/utagawa/](wiki/concepts/utagawa) に整理する。
 
 > 注: [init.txt](init.txt) では「宇多川氏」と表記されているが、本人の表記および外部資料では「宇田川浩行」が正しい。Wiki 側では「宇田川」で統一する。
 
 ## ディレクトリ構成
 
-- [raw/](raw/) — 生ソース。LLM はここを読み取り専用として扱う。改変しない。
-- [concepts/](concepts/) — 宇田川氏の造語、または一般語の特殊用法の解説ページ。
-- [sources/](sources/) — 各生ソースの要約ページ（ingest 時に作成）。
+- [raw/](raw) — 生ソース。LLM はここを読み取り専用として扱う。改変しない。
+- [wiki/](wiki) — Wiki の本体。以下のサブディレクトリに分かれる:
+  - [wiki/concepts/](wiki/concepts) — 概念全般。デライト周辺で出てくる用語の解説ページ。
+  - [wiki/concepts/utagawa/](wiki/concepts/utagawa) — その中でも **宇田川氏の作った概念**（造語、または一般語の特殊用法）。
+  - [wiki/people/](wiki/people) — 人物プロフィール（宇田川氏自身、関連哲学者など）。
+  - [wiki/meta/](wiki/meta) — Wiki 全体に関わるメタページ（編集方針マッピングなど）。
+- [sources/](sources) — 各生ソースの要約ページ（ingest 時に作成）。
+- [tools/](tools) — fetch / refactor / verify などの作業用スクリプト。
 - [index.md](index.md) — Wiki 全体の索引（カテゴリ別）。
 - [log.md](log.md) — ingest / query / lint の時系列ログ。
 - [init.txt](init.txt) — このプロジェクトの初期指示書。
 - [llm-wiki.md](llm-wiki.md) — LLM-Wiki パターンの解説。
 
+### 新規ページをどこに置くか
+
+| ページ種別 | 置き場所 |
+|---|---|
+| 宇田川氏が作った造語 / 一般語の特殊用法 | `wiki/concepts/utagawa/` |
+| デライト周辺で出てくるがユーザー側・外部由来の概念（久住哲氏の派生用語、Cosense 用語、メタデータ書式など） | `wiki/concepts/` 直下 |
+| 人物（哲学者、関係者、宇田川氏自身） | `wiki/people/` |
+| Wiki の編集方針・マッピング・索引補助など | `wiki/meta/` |
+
+迷ったら `wiki/concepts/utagawa/` ではなく `wiki/concepts/` 直下に置く（utagawa/ は宇田川氏由来であることが明確なものに限定する）。
+
 ## ページ命名規則
 
-- ファイル名は概念の日本語表記をそのまま使う（例: `concepts/輪郭.md`）。
+- ファイル名は概念の日本語表記をそのまま使う（例: `wiki/concepts/utagawa/輪郭.md`）。
 - 読みが特殊なものは本文先頭に振り仮名を添える。
 - 英訳・公式英語表記がある場合は本文に併記する（例: 輪郭 = outline, 輪郭法 = delineography）。
 
@@ -44,10 +60,15 @@
 - [他の用語](他の用語.md)
 
 ## ソース
-- [sources/villagepump-デライト.2hop.md](../sources/villagepump-デライト.2hop.md) ほか
+- [sources/villagepump-デライト.2hop.md](../../../sources/villagepump-デライト.2hop.md) ほか
 ```
 
 「一言要約」を全ページ揃えることで、特殊用語抜きで宇田川氏の思想を語る土台ができる。
+
+ソースへの相対パス例:
+- `wiki/concepts/utagawa/X.md` から `sources/Y.md` → `../../../sources/Y.md`
+- `wiki/concepts/X.md` から `sources/Y.md` → `../../sources/Y.md`
+- `wiki/people/X.md` から `sources/Y.md` → `../../sources/Y.md`
 
 ## ワークフロー
 
@@ -56,8 +77,8 @@
 ユーザーが `raw/` に資料を追加して "ingest" と言ったときに行う処理:
 
 1. ファイルを読む（大きい場合は分割して）。
-2. [sources/](sources/) に要約ページを作成。元ソース内で言及されている重要トピック、登場人物（特に宇田川氏本人の発言）、特殊用語の出現箇所を整理する。
-3. 新出の特殊用語があれば [concepts/](concepts/) にページを作成 or 既存ページを更新。
+2. [sources/](sources) に要約ページを作成。元ソース内で言及されている重要トピック、登場人物（特に宇田川氏本人の発言）、特殊用語の出現箇所を整理する。
+3. 新出の特殊用語があれば、上の判断基準に従い `wiki/concepts/utagawa/` か `wiki/concepts/` 直下にページを作成 or 既存ページを更新。
 4. [index.md](index.md) にエントリを追加。
 5. [log.md](log.md) に `## [YYYY-MM-DD] ingest | <ファイル名>` 形式で追記。
 
@@ -66,7 +87,7 @@
 ユーザーが質問したとき:
 
 1. [index.md](index.md) で関連ページを探す。
-2. concepts/ と sources/ の該当ページを読む。
+2. wiki/ と sources/ の該当ページを読む。
 3. **回答は特殊用語に依存せず、平易な日本語で説明する** ことを優先する。特殊用語を使う場合は、その場で平易な言い換えを添える。
 4. 重要な発見が得られた場合は新規ページとして Wiki に書き戻すことを検討。
 
@@ -74,10 +95,11 @@
 
 定期的に health-check を行う:
 
-- concepts/ 内で互いに参照されているはずなのにリンクが張られていないものを検出。
+- 概念ページ群で互いに参照されているはずなのにリンクが張られていないものを検出。
 - 「一言要約」が書かれていない or 特殊用語に頼り切っているページを検出。
-- sources/ で言及されているが concepts/ にページがない用語を検出。
+- sources/ で言及されているが概念ページが無い用語を検出。
 - 既知の発言と新出ソースで矛盾している箇所を検出。
+- リンク検証は [tools/verify_links.py](tools/verify_links.py) で実行できる。
 
 ## 編集方針
 
@@ -96,5 +118,5 @@
   - 宇田川氏のそれとの関係（同等／部分的に重なる／実装上の差／意図的なオマージュ など）
   - 出来るだけ短く、3-5項目以内
 - 宇田川氏の貢献が本当に独自である部分があれば、それも区別して書く（例: 実装、語感、組み合わせ方）。
-- 概観は [concepts/先行概念マッピング.md](concepts/先行概念マッピング.md) にまとめる。
+- 概観は [wiki/meta/先行概念マッピング.md](wiki/meta/先行概念マッピング.md) にまとめる。
 - 目的はディスではなく、**読み手が彼の思想を「より広い知的伝統の中で」位置づけられるようにする** こと。

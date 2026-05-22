@@ -138,22 +138,32 @@ def main(limit: int = 500):
     jsonl_path = f"{ROOT}/outlines.jsonl"
     log_path = f"{ROOT}/fetch.log"
 
-    # resume: load already-fetched knos
+    # resume: load already-fetched knos AND rebuild pending queue from their refs
     done = set()
+    pending_from_existing = []
     if os.path.exists(jsonl_path):
         with open(jsonl_path) as fh:
             for line in fh:
                 try:
-                    done.add(json.loads(line)["kno"])
+                    r = json.loads(line)
+                    done.add(r["kno"])
+                    for ref in r.get("fg_refs", []) + r.get("bg_refs", []):
+                        if ref.startswith("K#F85E"):
+                            pending_from_existing.append(ref)
                 except Exception:
                     pass
-        print(f"resume: {len(done)} already fetched")
+        print(f"resume: {len(done)} already fetched, {len(pending_from_existing)} ref candidates from existing data")
 
     queue = deque()
     queued = set()
     for s in SEEDS:
         if s not in done and s not in queued:
             queue.append(s); queued.add(s)
+    # then add pending refs gathered from previously-fetched outlines
+    for s in pending_from_existing:
+        if s not in done and s not in queued:
+            queue.append(s); queued.add(s)
+    print(f"queue size on start: {len(queue)}")
 
     out_jsonl = open(jsonl_path, "a", encoding="utf-8")
     out_log = open(log_path, "a", encoding="utf-8")

@@ -213,4 +213,4 @@
 
 ## 関連
 - [Scrapbox 井戸端側の発言整理](villagepump-デライト.2hop.md)
-- 概念ページ群: [concepts/](../concepts/)
+- 概念ページ群: [concepts/](../wiki/concepts)
