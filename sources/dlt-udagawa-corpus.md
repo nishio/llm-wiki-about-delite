@@ -4,16 +4,17 @@
 - **収集元**: https://dlt.kitetu.com/ （公開輪郭のみ）
 - **対象 KNo**: K#F85E 配下（宇田川（希哲）浩行＝デライト開発者の輪郭群）
 - **収集方法**: K#F85E プロフィール輪郭を起点に前景・後景輪符を BFS 取得（[tools/fetch_udagawa.py](../tools/fetch_udagawa.py)）
-- **取得件数**: 2005 輪郭 / 本文ありは 758 件 (37%)
+- **取得件数**: 2505 輪郭 / 本文ありは 912 件 (36%)
 - **生データ**: [raw/dlt-udagawa/outlines.jsonl](../raw/dlt-udagawa/outlines.jsonl) + 個別 HTML in [raw/dlt-udagawa/html/](../raw/dlt-udagawa/html)
 
 ## 取得バッチ
 
-- 第1バッチ (2026-05-22 初回): 505 件
+- 第1バッチ (2026-05-22): 505 件
 - 第2バッチ (2026-05-22): 500 件追加（resume 機能で前回キューから継続）
 - 第3バッチ (2026-05-22): 500 件追加
 - 第4バッチ (2026-05-22): 500 件追加
-- 現在のキュー残り: 約 4,249 件（全公開 ~196,000 件）
+- 第5バッチ (2026-05-22): 500 件追加
+- 現在のキュー残り: 約 4,960 件（全公開 ~196,000 件）
 
 ## サイト構造の理解
 
@@ -24,21 +25,21 @@
 
 ## 4桁プレフィックスと時期の対応（暫定）
 
-観察された主要プレフィックスと最古／最新の描出日（本文ありの輪郭のみ集計）:
+観察された主要プレフィックスと最古／最新の描出日（本文ありの輪郭のみ集計、5件以上のものに限定）:
 
-- **0758** (364件): 2023-07-29 12:24 〜 2026-05-22 06:45
-- **2510** (19件): 2016-02-28 23:47 〜 2016-08-27 12:42
-- **4686** (44件): 2017-05-19 22:54 〜 2019-02-17 04:25
-- **5B28** (32件): 2019-04-10 20:39 〜 2020-10-22 14:33
-- **7311** (6件): 2017-04-01 22:24 〜 2017-04-05 22:20
-- **E74C** (52件): 2021-02-15 20:42 〜 2023-01-29 03:51
-- **E8CA** (66件): 2015-06-26 23:33 〜 2015-12-31 01:48
+- **0758** (448件): 2023-07-29 12:24 〜 2026-05-22 06:45
+- **2510** (21件): 2016-02-28 23:47 〜 2016-08-27 12:42
+- **4686** (53件): 2017-04-13 04:03 〜 2019-02-17 04:25
+- **5B28** (36件): 2019-04-10 20:39 〜 2020-10-22 14:33
+- **7311** (9件): 2017-04-01 22:24 〜 2017-04-06 04:24
+- **E74C** (58件): 2021-02-15 20:42 〜 2023-01-29 03:51
+- **E8CA** (78件): 2015-06-26 23:33 〜 2015-12-31 01:48
 
 ## カテゴリ別収録
 
 ### 日記・越省・つぶがき（希哲X年Y月Z日の…）
 
-本人が日々の生活・思考・開発進捗を記録した文書。118件収録。
+本人が日々の生活・思考・開発進捗を記録した文書。143件収録。
 
 | 日付 | 知名 | KNo | 本文長 |
 |---|---|---|---|
@@ -62,21 +63,21 @@
 | 2026-05-01 | 希哲20年5月1日の越省 | [K#F85E/0758-D1F0](https://dlt.kitetu.com/KNo.F85E/0758-D1F0) | 140 |
 | 2026-05-01 | 希哲20年5月1日の日記 | [K#F85E/0758-F148](https://dlt.kitetu.com/KNo.F85E/0758-F148) | 276 |
 | 2026-04-30 | 希哲20年4月30日の睡眠 | [K#F85E/0758-039E](https://dlt.kitetu.com/KNo.F85E/0758-039E) | 215 |
+| 2026-04-30 | 希哲20年4月30日の飲食 | [K#F85E/0758-0C7F](https://dlt.kitetu.com/KNo.F85E/0758-0C7F) | 522 |
 | 2026-04-30 | 希哲20年4月30日の越省 | [K#F85E/0758-5EB3](https://dlt.kitetu.com/KNo.F85E/0758-5EB3) | 320 |
 | 2026-04-30 | 希哲20年4月30日の日記 | [K#F85E/0758-524B](https://dlt.kitetu.com/KNo.F85E/0758-524B) | 710 |
 | 2026-04-30 | 希哲20年4月30日の副日記 | [K#F85E/0758-7A8E](https://dlt.kitetu.com/KNo.F85E/0758-7A8E) | 130 |
 | 2026-04-29 | 希哲20年4月29日の副日記 | [K#F85E/0758-8291](https://dlt.kitetu.com/KNo.F85E/0758-8291) | 131 |
 | 2026-04-29 | 希哲20年4月29日の越省 | [K#F85E/0758-A561](https://dlt.kitetu.com/KNo.F85E/0758-A561) | 313 |
 | 2026-04-29 | 希哲20年4月29日の日記 | [K#F85E/0758-F44F](https://dlt.kitetu.com/KNo.F85E/0758-F44F) | 68 |
+| 2026-04-28 | 希哲20年4月28日の飲食 | [K#F85E/0758-A125](https://dlt.kitetu.com/KNo.F85E/0758-A125) | 483 |
 | 2026-04-28 | 希哲20年4月28日の副日記 | [K#F85E/0758-1BD8](https://dlt.kitetu.com/KNo.F85E/0758-1BD8) | 131 |
 | 2026-04-28 | 希哲20年4月28日の越省 | [K#F85E/0758-C775](https://dlt.kitetu.com/KNo.F85E/0758-C775) | 258 |
-| 2026-04-28 | 希哲20年4月28日の日記 | [K#F85E/0758-5C40](https://dlt.kitetu.com/KNo.F85E/0758-5C40) | 103 |
-| 2026-04-27 | 希哲20年4月27日の睡眠 | [K#F85E/0758-B2E5](https://dlt.kitetu.com/KNo.F85E/0758-B2E5) | 155 |
-| … | 残り 88 件は jsonl 参照 | | |
+| … | 残り 113 件は jsonl 参照 | | |
 
 ### 越省・一日一文（思想的エッセー）
 
-二重鉤括弧 `『…』` を冠した本格的な文章。13件収録。
+二重鉤括弧 `『…』` を冠した本格的な文章。18件収録。
 
 | 日付 | 題名 | KNo | 本文長 |
 |---|---|---|---|
@@ -87,22 +88,28 @@
 | 2019-05-16 | 一日一文 | [K#F85E/5B28-6184](https://dlt.kitetu.com/KNo.F85E/5B28-6184) | 541 |
 | 2018-08-17 | 『希哲日記』 | [K#F85E/4686-E8CF](https://dlt.kitetu.com/KNo.F85E/4686-E8CF) | 518 |
 | 2026-01-15 | 『越省（＾エッセー）としての一日一文』 | [K#F85E/0758-E363](https://dlt.kitetu.com/KNo.F85E/0758-E363) | 395 |
+| 2026-03-24 | 『日本からジョブズが生まれない理由』 | [K#F85E/0758-0BBD](https://dlt.kitetu.com/KNo.F85E/0758-0BBD) | 261 |
+| 2025-10-12 | 一日一文の珠列 | [K#F85E/0758-E031](https://dlt.kitetu.com/KNo.F85E/0758-E031) | 132 |
 | 2026-05-04 | 『デライト半公式 Collabox』 | [K#F85E/0758-CDE5](https://dlt.kitetu.com/KNo.F85E/0758-CDE5) | 114 |
 | 2026-05-22 | 『井戸端のソクラテス』 | [K#F85E/0758-352C](https://dlt.kitetu.com/KNo.F85E/0758-352C) | 77 |
 | 2025-07-29 | 『300万輪達成によせて』 | [K#F85E/0758-B2D5](https://dlt.kitetu.com/KNo.F85E/0758-B2D5) | 76 |
 | 2026-04-23 | 『アープラノート』 | [K#F85E/0758-5EBB](https://dlt.kitetu.com/KNo.F85E/0758-5EBB) | 57 |
+| 2014-03-18 | 『HUNTER×HUNTER』 | [K#F85E/FA8F](https://dlt.kitetu.com/KNo.F85E/FA8F) | 45 |
 | 2026-02-02 | 書了一日一文 | [K#F85E/0758-F8FE](https://dlt.kitetu.com/KNo.F85E/0758-F8FE) | 32 |
+| 2026-01-28 | 希哲20年の一日一文 | [K#F85E/0758-22F3](https://dlt.kitetu.com/KNo.F85E/0758-22F3) | 17 |
 | 2025-11-28 | 新生一日一文 | [K#F85E/0758-2BDE](https://dlt.kitetu.com/KNo.F85E/0758-2BDE) | 11 |
+| 2014-09-27 | 『ロード』 | [K#F85E/0512](https://dlt.kitetu.com/KNo.F85E/0512) | 7 |
 
 ### 概念・用語・固有名（本人による定義）
 
-既存の concepts/ ページや Scrapbox には無い、宇田川氏自身による定義文書。616件収録。本文の長いものほど、概念解説として価値が高い。
+既存の concepts/ ページや Scrapbox には無い、宇田川氏自身による定義文書。740件収録。本文の長いものほど、概念解説として価値が高い。
 
 | 用語 | 本文長 | 描出日 | KNo |
 |---|---|---|---|
 | Cosense | 793 | 2018-11-27 | [K#F85E/4686-7AE6](https://dlt.kitetu.com/KNo.F85E/4686-7AE6) |
 | 漢字 | 725 | 2012-09-23 | [K#F85E/32D9](https://dlt.kitetu.com/KNo.F85E/32D9) |
 | 文字 | 715 | 2012-09-23 | [K#F85E/A81F](https://dlt.kitetu.com/KNo.F85E/A81F) |
+| 言語演劇 | 714 | 2012-05-16 | [K#F85E/8E7D](https://dlt.kitetu.com/KNo.F85E/8E7D) |
 | 希哲学 | 558 | 2013-04-13 | [K#F85E/9974](https://dlt.kitetu.com/KNo.F85E/9974) |
 | 自由 | 512 | 2012-08-24 | [K#F85E/046C](https://dlt.kitetu.com/KNo.F85E/046C) |
 | 綜語 | 474 | 2012-05-31 | [K#F85E/45E0](https://dlt.kitetu.com/KNo.F85E/45E0) |
@@ -120,23 +127,32 @@
 | ウィキ | 316 | 2013-06-08 | [K#F85E/C358](https://dlt.kitetu.com/KNo.F85E/C358) |
 | 主力機 | 313 | 2017-05-19 | [K#F85E/4686-8EC0](https://dlt.kitetu.com/KNo.F85E/4686-8EC0) |
 | 大整輪 | 295 | 2022-03-05 | [K#F85E/E74C-2091](https://dlt.kitetu.com/KNo.F85E/E74C-2091) |
+| 希哲19年3月 | 285 | 2025-01-23 | [K#F85E/0758-2082](https://dlt.kitetu.com/KNo.F85E/0758-2082) |
+| 描出 | 278 | 2012-06-16 | [K#F85E/50B3](https://dlt.kitetu.com/KNo.F85E/50B3) |
+| 初期十珠列 | 275 | 2026-01-15 | [K#F85E/0758-259A](https://dlt.kitetu.com/KNo.F85E/0758-259A) |
+| 大言語化整輪期間 | 274 | 2026-01-27 | [K#F85E/0758-8CB5](https://dlt.kitetu.com/KNo.F85E/0758-8CB5) |
 | 我由 | 274 | 2012-05-20 | [K#F85E/C1BC](https://dlt.kitetu.com/KNo.F85E/C1BC) |
 | デライト広告収益の漸増 | 264 | 2026-02-11 | [K#F85E/0758-9A7D](https://dlt.kitetu.com/KNo.F85E/0758-9A7D) |
 | 9月 | 263 | 2014-09-21 | [K#F85E/1230](https://dlt.kitetu.com/KNo.F85E/1230) |
+| 8月 | 262 | 2014-09-21 | [K#F85E/AF14](https://dlt.kitetu.com/KNo.F85E/AF14) |
 | 12月 | 259 | 2014-09-21 | [K#F85E/6DF2](https://dlt.kitetu.com/KNo.F85E/6DF2) |
 | 7月 | 259 | 2014-09-21 | [K#F85E/EE6A](https://dlt.kitetu.com/KNo.F85E/EE6A) |
 | 6月 | 257 | 2014-09-21 | [K#F85E/E518](https://dlt.kitetu.com/KNo.F85E/E518) |
 | 表外漢字 | 256 | 2015-04-22 | [K#F85E/0DF3](https://dlt.kitetu.com/KNo.F85E/0DF3) |
+| 5月 | 255 | 2014-09-21 | [K#F85E/2C0F](https://dlt.kitetu.com/KNo.F85E/2C0F) |
 | 仮名 | 254 | 2014-03-18 | [K#F85E/1267](https://dlt.kitetu.com/KNo.F85E/1267) |
 | 整清 | 252 | 2018-07-24 | [K#F85E/4686-193C](https://dlt.kitetu.com/KNo.F85E/4686-193C) |
 | 黄金 | 249 | 2025-02-13 | [K#F85E/0758-450D](https://dlt.kitetu.com/KNo.F85E/0758-450D) |
 | 日 | 243 | 2014-09-21 | [K#F85E/521C](https://dlt.kitetu.com/KNo.F85E/521C) |
 | デライト | 240 | 2018-11-23 | [K#F85E/4686-182F](https://dlt.kitetu.com/KNo.F85E/4686-182F) |
+| 超デライト | 236 | 2026-03-17 | [K#F85E/0758-34B3](https://dlt.kitetu.com/KNo.F85E/0758-34B3) |
 | 輪郭小窓 | 230 | 2021-07-20 | [K#F85E/E74C-7ED7](https://dlt.kitetu.com/KNo.F85E/E74C-7ED7) |
 | 「一万 葉面（＾ページ）のぬかるみ」編 | 224 | 2025-10-24 | [K#F85E/0758-D4AF](https://dlt.kitetu.com/KNo.F85E/0758-D4AF) |
+| 黄金循環 | 216 | 2019-07-26 | [K#F85E/5B28-9A74](https://dlt.kitetu.com/KNo.F85E/5B28-9A74) |
 | 熟語 | 215 | 2014-10-20 | [K#F85E/E752](https://dlt.kitetu.com/KNo.F85E/E752) |
 | XWA | 214 | 2025-09-02 | [K#F85E/0758-73C4](https://dlt.kitetu.com/KNo.F85E/0758-73C4) |
 | 希哲19年7月 | 213 | 2025-01-23 | [K#F85E/0758-99F4](https://dlt.kitetu.com/KNo.F85E/0758-99F4) |
+| 希哲19年2月 | 209 | 2025-01-10 | [K#F85E/0758-C68D](https://dlt.kitetu.com/KNo.F85E/0758-C68D) |
 | デライト宣伝 | 208 | 2020-06-29 | [K#F85E/5B28-49C7](https://dlt.kitetu.com/KNo.F85E/5B28-49C7) |
 | 【候り】 | 203 | 2025-06-10 | [K#F85E/0758-0CDB](https://dlt.kitetu.com/KNo.F85E/0758-0CDB) |
 | 希哲19年5月 | 203 | 2025-01-23 | [K#F85E/0758-2FBE](https://dlt.kitetu.com/KNo.F85E/0758-2FBE) |
@@ -146,17 +162,23 @@
 | 一選万集 | 195 | 2019-01-08 | [K#F85E/4686-9F65](https://dlt.kitetu.com/KNo.F85E/4686-9F65) |
 | 希哲19年6月 | 194 | 2025-01-23 | [K#F85E/0758-9B38](https://dlt.kitetu.com/KNo.F85E/0758-9B38) |
 | 輪郭填範 | 191 | 2026-04-04 | [K#F85E/0758-0C80](https://dlt.kitetu.com/KNo.F85E/0758-0C80) |
+| 〈Delite〉 | 190 | 2018-11-23 | [K#F85E/4686-7D51](https://dlt.kitetu.com/KNo.F85E/4686-7D51) |
+| 楽 | 188 | 2014-12-23 | [K#F85E/3188](https://dlt.kitetu.com/KNo.F85E/3188) |
 | 希哲19年9月 | 187 | 2025-01-23 | [K#F85E/0758-1EF0](https://dlt.kitetu.com/KNo.F85E/0758-1EF0) |
 | 上 | 181 | 2015-08-19 | [K#F85E/E8CA-4A64](https://dlt.kitetu.com/KNo.F85E/E8CA-4A64) |
 | 出理 | 178 | 2026-01-22 | [K#F85E/0758-F528](https://dlt.kitetu.com/KNo.F85E/0758-F528) |
+| 二 | 178 | 2015-03-20 | [K#F85E/9665](https://dlt.kitetu.com/KNo.F85E/9665) |
 | 希哲19年12月 | 177 | 2025-01-23 | [K#F85E/0758-8887](https://dlt.kitetu.com/KNo.F85E/0758-8887) |
 | 才 | 175 | 2015-05-23 | [K#F85E/45EB](https://dlt.kitetu.com/KNo.F85E/45EB) |
+| 人輪一体 | 172 | 2025-09-16 | [K#F85E/0758-3A81](https://dlt.kitetu.com/KNo.F85E/0758-3A81) |
 | 日記準備整輪 | 171 | 2025-06-16 | [K#F85E/0758-28EC](https://dlt.kitetu.com/KNo.F85E/0758-28EC) |
 | 完全メイト | 171 | 2025-03-01 | [K#F85E/0758-AE6E](https://dlt.kitetu.com/KNo.F85E/0758-AE6E) |
 | 歯ブラシの交換 | 167 | 2025-12-08 | [K#F85E/0758-6708](https://dlt.kitetu.com/KNo.F85E/0758-6708) |
 | 陶練 | 163 | 2018-08-02 | [K#F85E/4686-0DA3](https://dlt.kitetu.com/KNo.F85E/4686-0DA3) |
 | 閃き | 163 | 2017-03-10 | [K#F85E/7309-F77C](https://dlt.kitetu.com/KNo.F85E/7309-F77C) |
+| 水 | 162 | 2012-12-11 | [K#F85E/9E03](https://dlt.kitetu.com/KNo.F85E/9E03) |
 | 大脱皮 | 161 | 2025-05-30 | [K#F85E/0758-822F](https://dlt.kitetu.com/KNo.F85E/0758-822F) |
+| 填範 | 160 | 2026-01-29 | [K#F85E/0758-1D50](https://dlt.kitetu.com/KNo.F85E/0758-1D50) |
 | 黄金大整輪 | 160 | 2025-02-13 | [K#F85E/0758-3AD7](https://dlt.kitetu.com/KNo.F85E/0758-3AD7) |
 | 「市場施策（＾マーケティング）について考える」編 | 156 | 2026-03-20 | [K#F85E/0758-B628](https://dlt.kitetu.com/KNo.F85E/0758-B628) |
 | 過 | 153 | 2015-08-21 | [K#F85E/E8CA-80D0](https://dlt.kitetu.com/KNo.F85E/E8CA-80D0) |
@@ -173,6 +195,8 @@
 | 希哲20年1月 | 145 | 2025-09-09 | [K#F85E/0758-FBA1](https://dlt.kitetu.com/KNo.F85E/0758-FBA1) |
 | 希哲館事業 | 145 | 2014-06-24 | [K#F85E/7C98](https://dlt.kitetu.com/KNo.F85E/7C98) |
 | 希哲19年11月 | 144 | 2025-01-23 | [K#F85E/0758-E637](https://dlt.kitetu.com/KNo.F85E/0758-E637) |
+| 出 | 144 | 2015-05-25 | [K#F85E/B3A1](https://dlt.kitetu.com/KNo.F85E/B3A1) |
+| 女 | 143 | 2014-09-05 | [K#F85E/7629](https://dlt.kitetu.com/KNo.F85E/7629) |
 | 侍い | 140 | 2020-02-12 | [K#F85E/5B28-EC32](https://dlt.kitetu.com/KNo.F85E/5B28-EC32) |
 | 累新 | 140 | 2015-03-30 | [K#F85E/C038](https://dlt.kitetu.com/KNo.F85E/C038) |
 | 利 | 139 | 2015-04-30 | [K#F85E/30F1](https://dlt.kitetu.com/KNo.F85E/30F1) |
@@ -180,8 +204,10 @@
 | 現 | 138 | 2015-08-23 | [K#F85E/E8CA-3683](https://dlt.kitetu.com/KNo.F85E/E8CA-3683) |
 | 省 | 138 | 2015-09-07 | [K#F85E/E8CA-998D](https://dlt.kitetu.com/KNo.F85E/E8CA-998D) |
 | 知能増幅 | 137 | 2014-11-07 | [K#F85E/32AD](https://dlt.kitetu.com/KNo.F85E/32AD) |
+| 象 | 137 | 2015-03-13 | [K#F85E/4E77](https://dlt.kitetu.com/KNo.F85E/4E77) |
+| 能 | 137 | 2015-08-20 | [K#F85E/E8CA-E611](https://dlt.kitetu.com/KNo.F85E/E8CA-E611) |
 
-（536件は jsonl 参照）
+（640件は jsonl 参照）
 
 ### 漢字関連（教育漢字一覧）
 
