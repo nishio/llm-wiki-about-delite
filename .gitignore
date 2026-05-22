@@ -1,0 +1,16 @@
+# Personal scratch notes
+memo.txt
+
+# Temporary scraping artifacts (regeneratable, large)
+tmp/
+
+# Local agent settings
+.claude/
+
+# Large unprocessed corpus (63MB scraped from dlt.kitetu.com)
+# Summary is in sources/dlt-udagawa-corpus.md; corpus itself stays local
+raw/dlt-udagawa/
+
+# OS / editor
+.DS_Store
+*.swp

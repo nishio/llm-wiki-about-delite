@@ -1,0 +1,505 @@
+This text contains the content of https://scrapbox.io/delite/ (a Scrapbox/Cosense project) — all public pages exported as one file.
+Total pages included: 43.
+
+IMPORTANT: Bracketed [page title] are internal links within the delite project. Lines starting with whitespace indicate indentation/hierarchy in Scrapbox.
+
+== GUIDE FOR AI AGENTS ==
+1. Pages are ordered by Scrapbox's default sort (most-recently-updated first).
+2. NAVIGATE by searching for "<Page title=" to jump to a specific page.
+3. The first line of each page body repeats the title — this is Scrapbox's convention.
+4. REFERENCE created/updated timestamps when handling conflicting information.
+5. External links appear as bare URLs or as [url label] / [label url].
+
+<PageList>
+<Page title="デライト Collabox（仮）" url="https://scrapbox.io/delite/デライト_Collabox（仮）" updated="2026-05-15T00:10:05Z" created="2026-05-03T21:50:36Z">
+デライト Collabox（仮）
+このプロジェクト。
+[/delite]
+
+[K#F85E/0758-CDE5 https://dlt.kitetu.com/KNo.F85E/0758-CDE5]
+
+ 参加・書き込みはご自由に。[デライト特化井戸端]改め[デライトユーザー向け井戸端]。
+  https://scrapbox.io/projects/delite/invitations/9c61fc4cc33126007612c1666fd1efd7
+ 誰が編集したか知りたい場合は[テロメア]から参照可能。
+
+</Page>
+
+<Page title="804C" url="https://scrapbox.io/delite/804C" updated="2026-05-12T11:03:01Z" created="2026-05-12T10:42:44Z">
+804C
+
+[https://lh3.googleusercontent.com/a/ACg8ocI9vAsLQYO4VyWda68rrLTXk-7Q7-2PkxM8rkd5Mmj4wSK0Rw=s96-c#.png]
+
+code:メアド
+ kno.804c@gmail.com 
+
+自己紹介
+ 端的に、お気持ちを表明するムーブがとっても得意
+
+#member
+
+</Page>
+
+<Page title="デライトのRSS" url="https://scrapbox.io/delite/デライトのRSS" updated="2026-05-15T00:23:15Z" created="2026-05-15T00:22:22Z">
+デライトのRSS
+輪郭が並んでいる画面であればだいたいRSSフィードを取れる
+
+用途
+
+</Page>
+
+<Page title="デライター" url="https://scrapbox.io/delite/デライター" updated="2026-05-14T11:41:19Z" created="2026-05-13T12:30:53Z">
+デライター
+デライトの[用者（ユーザー）]のこと。
+
+[/villagepump/デライターの生態]
+
+</Page>
+
+<Page title="デコ二刀流" url="https://scrapbox.io/delite/デコ二刀流" updated="2026-05-14T11:38:31Z" created="2026-05-07T12:37:18Z">
+デコ二刀流
+[デライト.icon]と[Cosense.icon]の二刀流
+[/villagepump/デコ二刀流]
+[K#F85E/0758-5F56 https://dlt.kitetu.com/KNo.F85E/0758-5F56]
+
+用途に応じた両者の使い分けなら経験者は多そう[zatsma.icon]
+ わたしも使い分けている
+  職業関連のことはCosenseに書く
+  それ以外のことはデライトに書く
+
+[Cosenseとデライトを併用することで更に高みを目指す]……的なレベルになってくるとまだ前例がないのではないか
+
+</Page>
+
+<Page title="未公開輪郭" url="https://scrapbox.io/delite/未公開輪郭" updated="2026-05-13T11:55:26Z" created="2026-05-08T10:09:39Z">
+未公開輪郭
+未公開状態の[輪郭]
+ 描出主とサービス管理者しか見ることができない
+ 描出主であればいつでも[公開輪郭]にできる
+
+[未公開輪郭は秘密を保護するためのものではない]ことに注意が必要.
+ > {デライト K#/9BFD}は{公開 K#/EC06}が基本のサービスであり、本機能も秘密を保護するためのものではありません。運営者は管理のため閲覧することが出来ます。他人に見られてはいけない情報の保存はしないで下さい。
+  https://dlt.kitetu.com/KNo.C7C6/5BFA
+ 関連
+  [未公開輪郭の知名は他者から観測できることもある]
+   https://dlt.kitetu.com/KNo.FD7E/73EC
+
+[未公開輪郭の使い道]
+
+</Page>
+
+<Page title="検索の民主化" url="https://scrapbox.io/delite/検索の民主化" updated="2026-05-13T08:34:10Z" created="2026-05-13T02:36:34Z">
+検索の民主化
+https://democrasearch.com/
+
+[/DemocraSearch/プロシン論文]
+
+デライトは検索の民主化を可能とするか？
+
+</Page>
+
+<Page title="意味符号化" url="https://scrapbox.io/delite/意味符号化" updated="2026-05-13T03:38:26Z" created="2026-05-13T03:22:37Z">
+意味符号化
+宇田川さんが[デルンで実現したこと]のひとつ。
+ [https://dlt.kitetu.com/KNo.F85E/2510-4F2E]
+
+[全知検索]との組み合わせにより[意味を検索]出来て便利[zatsma.icon]
+ こういう言及、デライトでだったら「意味符号化により意味が検索できて便利」みたいな輪郭を作るだろうな。
+
+</Page>
+
+<Page title="検索エンジン何使ってる？" url="https://scrapbox.io/delite/検索エンジン何使ってる？" updated="2026-05-13T03:29:02Z" created="2026-05-13T02:46:17Z">
+検索エンジン何使ってる？
+人が使ってる[検索エンジン]を知りたい[zatsma.icon]
+
+[** 王道]
+[Google検索]
+ 使ってる
+ 使ってない
+  デライト使い始める時点で[Startpage.icon]に移行してた[zatsma.icon]
+[Startpage][Startpage.icon]
+ 使ってる
+  デライトに書かれていないことやデライトにこれから書くべきことについて検索する[zatsma.icon]
+ 使ってない
+[Kagi][Kagi.icon]
+ 使ってる
+  [特定の分野に絞り込んで検索]したい時に使ってる[zatsma.icon]
+ 使ってない
+
+[** その他]
+[デライト][デライト.icon]
+ 使ってる
+  [知ってるサイトに飛ぶ]とき使う[zatsma.icon]
+  [検索エンジンにインデックスされない情報]も載せられて便利
+
+</Page>
+
+<Page title="Google検索" url="https://scrapbox.io/delite/Google検索" updated="2026-05-13T02:55:33Z" created="2026-05-13T02:23:57Z">
+Google検索
+お馴染みの[検索エンジン]
+
+一時期から使ってない[zatsma.icon]
+ [検索エンジン何使ってる？#6a03e62f000000000092f9fc]
+
+</Page>
+
+<Page title="デライト" url="https://scrapbox.io/delite/デライト" updated="2026-05-13T02:54:16Z" created="2026-05-03T21:46:12Z">
+デライト
+[https://gyazo.com/1f5a4cad21079066f82288e89ebfc232]
+https://dlt.kitetu.com
+
+ [人力インデックス検索エンジン][zatsma.icon]
+
+</Page>
+
+<Page title="Startpage" url="https://scrapbox.io/delite/Startpage" updated="2026-05-13T02:45:46Z" created="2026-05-13T02:45:02Z">
+Startpage
+[https://gyazo.com/4f39b34557dfa8b9e086763c929f640b]
+
+[検索エンジン]。
+ [Google検索]へ匿名化されたリクエストを送っている
+
+広告は出る
+
+</Page>
+
+<Page title="Kagi" url="https://scrapbox.io/delite/Kagi" updated="2026-05-13T02:23:29Z" created="2026-05-13T02:23:11Z">
+Kagi
+[https://gyazo.com/aebbe0430988d6bb763189d26e927cba]
+
+[https://kagi.com/]
+
+[検索エンジン]の1つ。有料。
+
+</Page>
+
+<Page title="用者（ユーザー）" url="https://scrapbox.io/delite/用者（ユーザー）" updated="2026-05-12T13:42:10Z" created="2026-05-08T06:19:20Z">
+用者（ユーザー）
+ユーザーの[希哲館訳語]。
+ [デライト用語ではない]。
+
+</Page>
+
+<Page title="定問（テーマ）がないと書けない" url="https://scrapbox.io/delite/定問（テーマ）がないと書けない" updated="2026-05-12T11:11:44Z" created="2026-05-08T06:02:49Z">
+定問（テーマ）がないと書けない
+という状況。
+
+ このプロジェクトで何を書けばよいのか分からないという仕草は禁止でよい？（発言者：[804C.icon]）
+  以下のやり取りをスキップしたいので。
+   何をコラボすべきか見つけることができない。
+   何でもいいんだぜ？
+    （でも○○○は私の気に障るから駄目なんだぜ？障ったら言う。）
+   みたいな葛藤に苛まれた結果、当たり障りのない何某かの簡易的な解説ページとかに落ち着きがち
+  +1[zatsma.icon]
+   本プロジェクトにそういう仕草が増えてきてからでもいい気はする[zatsma.icon]
+    はい、そうします（←重鎮気取りの[804C.icon]）
+
+わかる[zatsma.icon]
+ [デライトの機能説明]あたりが丁度良いのだとは思う
+  そういうことはデライトに書いてしまう罠
+ もっとデライトに関係のないことを書いていってもいいのかもしれない
+  例: [教習所ふきだしコンテスト]
+
+</Page>
+
+<Page title="自動車教習所" url="https://scrapbox.io/delite/自動車教習所" updated="2026-05-12T11:10:33Z" created="2026-05-12T11:09:37Z">
+自動車教習所
+幅広い文化がいちどうにまみえる場所。
+
+</Page>
+
+<Page title="コヤマドライビングスクール" url="https://scrapbox.io/delite/コヤマドライビングスクール" updated="2026-05-12T11:09:20Z" created="2026-05-12T11:08:40Z">
+コヤマドライビングスクール
+https://www.koyama.co.jp/
+
+[自動車教習所]
+
+</Page>
+
+<Page title="ターン制コミュニケーション" url="https://scrapbox.io/delite/ターン制コミュニケーション" updated="2026-05-12T11:05:27Z" created="2026-05-12T11:05:27Z">
+ターン制コミュニケーション
+
+</Page>
+
+<Page title="教習所ふきだしコンテスト" url="https://scrapbox.io/delite/教習所ふきだしコンテスト" updated="2026-05-12T11:05:04Z" created="2026-05-09T07:17:11Z">
+教習所ふきだしコンテスト
+https://www.koyama.co.jp/form/campaign/
+[コヤマドライビングスクール]で不定期に開催される。
+賞金総額15万円！
+
+[* オモコロライター達が挑んだ軌跡]
+ [https://omocoro.jp/kiji/529948/ 賞を獲れそうで獲れない【教習所ふきだしコンテスト】、11人で全ての入賞枠を頂戴いたします | オモコロ]
+
+過去の入賞作品を見て傾向を知ろう。
+ 2026年1月1日～2月28日開催分
+  https://www.koyama.co.jp/news/7438/
+ 2025年10月1日～11月30日開催分
+  https://www.koyama.co.jp/news/7061/
+ 2025年7月1日～8月31日開催分
+  https://www.koyama.co.jp/news/6072/
+ 2025年4月1日～5月31日開催分
+  https://www.koyama.co.jp/news/5570/
+ 2024年4月1日～5月31日開催分
+  https://www.koyama.co.jp/news/4598/
+ 2023年1月1日～2月28日開催分
+  https://www.koyama.co.jp/news/2421/
+ 2023年4月1日～5月31日開催分
+  https://www.koyama.co.jp/news/3317/
+ 2022年4月1日～5月31日開催分
+  https://www.koyama.co.jp/news/1984/
+ 2022年1月1日～2月28日開催分
+  https://www.koyama.co.jp/news/1602/
+
+関連輪郭
+ https://dlt.kitetu.com/KNo.804C/CF31
+
+</Page>
+
+<Page title="zatsma" url="https://scrapbox.io/delite/zatsma" updated="2026-05-12T11:04:12Z" created="2026-05-07T06:29:26Z">
+zatsma
+
+[https://gyazo.com/0cced7865f30c3b2ffea509ff50c34d9]
+
+[デライト.icon]用者番号 [K#FD7E]
+
+Cosense歴
+ 遅くても2017年から使っている
+  記憶不明
+
+デライト歴
+ 2025-12-25より
+
+#member
+
+</Page>
+
+<Page title="K#1" url="https://scrapbox.io/delite/K#1" updated="2026-05-09T20:58:38Z" created="2026-05-08T06:16:44Z">
+K#1
+[K#1 https://dlt.kitetu.com/KNo.1]
+デライトにおける[デライト公式]の[用者（ユーザー）番号]
+
+</Page>
+
+<Page title="デライトの具体的な用途" url="https://scrapbox.io/delite/デライトの具体的な用途" updated="2026-05-09T12:30:11Z" created="2026-05-09T12:28:42Z">
+デライトの具体的な用途
+知りたいし教えたい
+
+思案中[zatsma.icon]
+ [https://dlt.kitetu.com/KNo.FD7E/7920]
+
+</Page>
+
+<Page title="未公開輪郭を描出し続けることとプライベートプロジェクトで書き続けることの差は何か？" url="https://scrapbox.io/delite/未公開輪郭を描出し続けることとプライベートプロジェクトで書き続けることの差は何か？" updated="2026-05-09T12:27:43Z" created="2026-05-08T10:09:59Z">
+未公開輪郭を描出し続けることとプライベートプロジェクトで書き続けることの差は何か？
+？[zatsma.icon]
+
+[あれ]
+ table:あれ
+  [未公開輪郭]	[プライベートプロジェクト]
+  運営者が常時閲覧可能である点が意識の片隅に残される	左記と比較して心理的な抵抗が小さい
+  個人情報が出せないことによる曖昧さを含んだ知識体系	個人情報を出すことによる直接的な知識作りが可能
+  良くも悪くも俯瞰したくならなくなる	良くも悪くも俯瞰したくなる
+  縦方向の情報整理に長けてくるかも？	横方向の情報整理に長けてくるかも？
+  運営者が一人（急にアクセスできなくなる可能性）の影響がチラつく	運営者の財政基盤（急に終わりを告げられる可能性）の影響がチラつく
+  画面があっちこっち切り替わるのが当たり前になる	意図して画面を切り替えるのが当たり前になる
+  検索結果が多い場合でも目に優しい	検索結果をスクロールしなくてもある程度一覧できる
+  検索して探せるから情報が埋もれてもいいか、となる	どこかで繋がるから情報が埋もれてもいいか、となる
+  ワーキングメモリが少なくても使える	ワーキングメモリが少なくても使える
+  夢に宇田川さんが出てくる（実話）	夢にshokaiさんが出てくる（実話）
+  デラング記法の追求で時間を溶かす	UserScript, UserCSSの追求で時間を溶かす
+  いらない情報は切り離す（か、削除する）	いらない情報は見直す（か、削除する）
+  疑問を公開状態にすると開発者が拾ってくれることがある	開発者に問い合わせする方法に迷いやすい
+  あたまのわるい時の私（私のこと）が使うようになる	あたまのいい時の私（私のこと）が使うようになる
+
+</Page>
+
+<Page title="輪符をブラケティング" url="https://scrapbox.io/delite/輪符をブラケティング" updated="2026-05-08T10:17:03Z" created="2026-05-08T09:54:25Z">
+輪符をブラケティング
+[輪符]を[ブラケティング]すること
+
+例
+ [{デライト公式 K#1/729F}]
+
+特に何か狙いはなく、実験としてやってみている[zatsma.icon]
+ [デコ二刀流]の一環
+ [Cosenseの世界観にデライトの概念を無理やり持ち込む]行為
+ [デライト.icon] https://dlt.kitetu.com/?kw=輪符でブラケティング
+ [知番]で言及対象を1つに絞れるのが通常のブラケティングとの差か？
+
+</Page>
+
+<Page title="輪符" url="https://scrapbox.io/delite/輪符" updated="2026-05-08T10:00:10Z" created="2026-05-08T09:42:01Z">
+輪符
+デライトにおいて[輪郭]への参照を表現するためのもの。
+
+形式
+ code:輪符
+  {あれ K#XXXX/XXXX}
+ 知名の部分は好きに書き換えられる
+  引き入れや埋め込みに使う場合、知名部分は省略可
+
+派生
+ [無番輪符]
+ 用者番号省略輪符
+
+用途
+ [引き入れ欄での引き入れ]
+ [描写埋め込み]
+
+</Page>
+
+<Page title="ブラケティング" url="https://scrapbox.io/delite/ブラケティング" updated="2026-05-08T09:53:34Z" created="2026-05-08T09:52:09Z">
+ブラケティング
+Cosenseにおいて文字列を角括弧で囲いリンク化すること
+
+</Page>
+
+<Page title="用者（ユーザー）番号" url="https://scrapbox.io/delite/用者（ユーザー）番号" updated="2026-05-08T06:25:35Z" created="2026-05-08T06:17:46Z">
+用者（ユーザー）番号
+[用者（ユーザー）]アカウントを一意に区別するためのID。
+
+ 別にデライトに限った話ではない。
+ [デライト用語ではない]
+
+</Page>
+
+<Page title="デライト公式" url="https://scrapbox.io/delite/デライト公式" updated="2026-05-08T06:24:15Z" created="2026-05-07T12:44:11Z">
+デライト公式
+[用者（ユーザー）]ページ
+ [https://dlt.kitetu.com/KNo.1]
+[用者（ユーザー）番号]
+ [K#1]
+
+[{デライト公式 K#1/729F}]
+
+</Page>
+
+<Page title="デライト用語ではない" url="https://scrapbox.io/delite/デライト用語ではない" updated="2026-05-08T06:22:00Z" created="2026-05-08T06:20:23Z">
+デライト用語ではない
+ デライトを使うにあたって……
+  覚える必要のない用語。
+  コミュニケーションに必要のない用語。
+
+</Page>
+
+<Page title="のような位置づけ" url="https://scrapbox.io/delite/のような位置づけ" updated="2026-05-08T06:16:04Z" created="2026-05-08T05:12:16Z">
+のような位置づけ
+ 本人は肯定も否定もしていない。
+  が、そうしていたりそうであったりするかのように見えた人が最低1名いる。
+   そう見えたのは他人かもしれないし、本人かもしれない。
+
+</Page>
+
+<Page title="テロメア" url="https://scrapbox.io/delite/テロメア" updated="2026-05-08T05:18:26Z" created="2026-05-08T04:57:49Z">
+テロメア
+ ページの編集欄の左端をタップしたりすると表示されるメタ情報。
+  更新日時と更新者が表示される。
+  履歴を表示することができる。
+  リンクのコピーに使える。
+
+</Page>
+
+<Page title="{デライト公式 K#1/729F}" url="https://scrapbox.io/delite/{デライト公式_K#1/729F}" updated="2026-05-08T05:17:35Z" created="2026-05-08T04:50:24Z">
+{デライト公式 K#1/729F}
+[デライト公式]の自己言及[のような位置づけ]の輪郭の輪符
+
+</Page>
+
+<Page title="空行承り太郎" url="https://scrapbox.io/delite/空行承り太郎" updated="2026-05-08T05:09:57Z" created="2026-05-08T05:04:41Z">
+空行承り太郎
+[/shokai/空行承り太郎]
+
+ 最終行を作った人の名前を借りて空行承り太郎が更新するため、[テロメア]上の更新者は空行承り太郎とならない。
+
+</Page>
+
+<Page title="Cosense" url="https://scrapbox.io/delite/Cosense" updated="2026-05-07T12:28:56Z" created="2026-05-03T22:34:53Z">
+Cosense
+[https://gyazo.com/d9f3397e85e79ad6ef19af34b4219729]
+なんだかんだ言いつつも凄いサービス。
+デライトに負けず劣らず唯一無二の体験がある。
+
+</Page>
+
+<Page title="Collabox" url="https://scrapbox.io/delite/Collabox" updated="2026-05-07T09:33:44Z" created="2026-05-03T21:42:53Z">
+Collabox
+宇田川による [Cosense 再改称案]。
+
+[collabox.ai] がまだあいている。
+
+https://dlt.kitetu.com/KNo.F85E/0758-475D
+
+.aiというTLDを使うのが妥当かどうかは置いておいて...[/Icons2/gaming_who1.icon]
+
+</Page>
+
+<Page title="井戸端" url="https://scrapbox.io/delite/井戸端" updated="2026-05-07T09:11:31Z" created="2026-05-03T21:56:28Z">
+井戸端
+[/villagepump]
+デライト研究の場でもある。
+
+[https://gyazo.com/a2112227fce484ff0f8d54cc65abec72]
+
+</Page>
+
+<Page title="スマホから書くコセンス" url="https://scrapbox.io/delite/スマホから書くコセンス" updated="2026-05-06T06:14:54Z" created="2026-05-06T06:03:02Z">
+スマホから書くコセンス
+ IMEとの相性がある。
+ パソコンの使い勝手が最高
+ スマホからの使い勝手は戦略として設計していそう。
+  スマホガチ使い勢にあえて課題を突き付けることに意義がありそう。
+
+</Page>
+
+<Page title="hiro" url="https://scrapbox.io/delite/hiro" updated="2026-05-04T13:33:27Z" created="2026-05-04T13:33:27Z">
+hiro
+
+[https://lh3.googleusercontent.com/a/ACg8ocIoxuiT-7Vp4wpzyHxYkKDxpTCe64uNtfoMIFClhWxkNZzBCJs=s96-c#.png]
+
+ここはhiroのページです[Cosense Beaver.icon]
+ 自己紹介などを書きましょう
+
+`control - i` キーを押すと、自分のアイコン[hiro.icon]をすばやく入力できます[Cosense Beaver.icon]
+ アイコンは意見の表明や、投票などにも使えます[Cosense Beaver.icon]
+  なるほど（これは返信の例です）[hiro.icon]
+
+ページ内で一番上にある画像がアイコンに使用されます
+ ページリスト画面でも表示されます
+ 変更したい場合はドラッグアンドドロップでアップロードして下さい
+
+#member
+
+</Page>
+
+<Page title="2026年5月4日" url="https://scrapbox.io/delite/2026年5月4日" updated="2026-05-04T03:01:03Z" created="2026-05-03T23:34:48Z">
+2026年5月4日
+[あれ]
+ 連絡可能なメアドを用いてこのプロジェクトに登録することで、参加者だけにメアドを限定公開する運用ができるなと思った。
+
+</Page>
+
+<Page title="Cosense ユーザーはみんなデライトアカウントを持とう" url="https://scrapbox.io/delite/Cosense_ユーザーはみんなデライトアカウントを持とう" updated="2026-05-03T22:26:36Z" created="2026-05-03T21:54:30Z">
+Cosense ユーザーはみんなデライトアカウントを持とう
+便利だよ
+増井さんもshokaiさんもおいで。
+
+</Page>
+
+<Page title="デライト特化井戸端" url="https://scrapbox.io/delite/デライト特化井戸端" updated="2026-05-03T21:56:20Z" created="2026-05-03T21:55:59Z">
+デライト特化井戸端
+[井戸端]。
+
+</Page>
+
+<Page title="N10K 騒動" url="https://scrapbox.io/delite/N10K_騒動" updated="2026-05-03T21:48:00Z" created="2026-05-03T21:47:57Z">
+N10K 騒動
+騒動。
+
+</Page>
+
+<Page title="N10K 問題" url="https://scrapbox.io/delite/N10K_問題" updated="2026-05-03T21:47:46Z" created="2026-05-03T21:47:43Z">
+N10K 問題
+問題。
+
+</Page>
+
+</PageList>
