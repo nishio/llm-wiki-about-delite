@@ -8,6 +8,12 @@ tmp/
 # Local agent settings
 .claude/
 
+# Quartz / Node build artifacts
+node_modules/
+public/
+.quartz-cache/
+tsconfig.tsbuildinfo
+
 # Large unprocessed corpus (63MB scraped from dlt.kitetu.com)
 # Summary is in sources/dlt-udagawa-corpus.md; corpus itself stays local
 raw/dlt-udagawa/
